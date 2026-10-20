@@ -15,14 +15,12 @@ Master of AI @ RMIT University · Melbourne, Australia
 ### What I'm working on
 
 - **AI security research.** Auditing open-source AI desktop apps for MCP tool abuse, API key exposure, XSS and unsafe Electron config. Reported findings to vendors through coordinated disclosure (rated High and Critical). Write-ups go public once fixes ship.
-- **Local prompt-injection detection.** Fine-tuning a small LoRA classifier on Apple Silicon (MLX) as a detection layer for Parry.
+- **Local prompt-injection detection.** Fine-tuning a small LoRA classifier on Apple Silicon (MLX) to catch prompt injection locally.
 
 ### Shipped
 
 | Project | What it does | Stack |
 |---|---|---|
-| **Parry** | Desktop scanner that tests LLM apps against the OWASP Top 10 for LLMs | Tauri v2, React |
-| **RepoAudit** | AI-powered auditor for GitHub codebases. Deployed, with real users | Next.js, Supabase, BullMQ, Claude API, Stripe |
 | **Where should I fly today?** | Route generator for Microsoft Flight Simulator 2024. Launched on Reddit: 1,200+ visits, 96+ routes generated, iterated on user feedback | Web |
 
 ### Experience
@@ -33,4 +31,4 @@ Master of AI @ RMIT University · Melbourne, Australia
 
 ### Toolbox
 
-`Python` `TypeScript` `React` `Next.js` `Tauri` `Supabase` `Claude API` `MLX` `LoRA fine-tuning` `OWASP LLM Top 10` `Threat modelling`
+`Python` `TypeScript` `React` `Claude API` `MLX` `LoRA fine-tuning` `OWASP LLM Top 10` `Threat modelling`
